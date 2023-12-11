@@ -5,6 +5,7 @@ namespace pokemon_review_api.Models
 	{
 		public int ID { get; set; }
 		public string Name { get; set; }
+		public ICollection<Owner> Owners { get; set; }
 	}
 }
 

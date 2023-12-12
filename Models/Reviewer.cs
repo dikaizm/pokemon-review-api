@@ -9,4 +9,3 @@ namespace pokemon_review_api.Models
 		public ICollection<Review> Reviews { get; set; }
 	}
 }
-
